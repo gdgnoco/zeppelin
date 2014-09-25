@@ -3,16 +3,15 @@ markdown: kramdown
 permalink: pretty
 exclude: ['/automation/', 'README.md', 'LICENCE.txt', 'CNAME']
 
-
 # Site Settings
-title: "GDG DevFest Colorado 2014"
+title: "DevFest Colorado 2014"
 email: "devfest@gdgno.co"
-description: "GDG DevFest Colorado is a developer and designer oriented events for Colorado"
-baseurl: "/"
+description: "DevFest Colorado is a developer and designer oriented events for Colorado"
+baseurl: ""
 url: "http://gdgdevfest.co"
 permalink: "/blog/:title"
-googleAnalyticsTrackingId: "UA-43643469-9"
-googleAnalyticsSiteUrl: "gdgdevfest.co"
+googleAnalyticsTrackingId: "UA-55113297-2"
+googleAnalyticsSiteUrl: "www.gdgdevfest.co"
 
 # Organizer Info
 organizerName: "GDG Colorado - Boulder/Denver/NoCo/ABQ"
@@ -39,39 +38,39 @@ navigationLinks:
  - {permalink: "/", text: "Home"}
  - {permalink: "/blog/", text: "Blog"}
  - {permalink: "/schedule/", text: "Schedule"}
- - {permalink: "/speakers/", text: "Speakers"}
+# - {permalink: "/speakers/", text: "Speakers"}
  - {permalink: "/team/", text: "Team"}
  - {permalink: "/logistics/", text: "Logistics"}
  - {permalink: "/hackathon/", text: "Hackathon"}
-bottomNavigationLinks:
- - {link: "http://bit.ly/dfua-c4p", text: "Become a speaker"}
-rightNavigationButtons:
- - {link: "http://bit.ly/dfua-c4p", text: "Become a speaker"}
+#bottomNavigationLinks:
+# - {link: "http://bit.ly/dfua-c4p", text: "Become a speaker"}
+#rightNavigationButtons:
+# - {link: "http://bit.ly/dfua-c4p", text: "Become a speaker"}
 
 # Hero Block
 heroImage: "hero.jpg"
 heroTitle: "GDG DevFest<typeout>2014"
-eventDate: "September - November, 2014"
-typeoutTextValues: '"", "Colorado", "Bouder", "Denver", "Fort Collins", "Albuquerque'
-typeoutFallback: "Colorado
+eventDate: "November 1, 2014"
+typeoutTextValues: '"", "Colorado", "Boulder"'
+typeoutFallback: "Colorado"
 heroButtons:
- - {link: "http://bit.ly/dfua-c4p", text: "Become a speaker"}
- - {permalink: "/#tickets", text: "Buy tickets"}
+# - {link: "http://bit.ly/dfua-c4p", text: "Become a speaker"}
+ - {permalink: "/#tickets", text: "Register"}
 
 # About Block
 aboutTitle: "About GDG DevFest"
 aboutBlock:
- - {title: "Conference", image: "conference.jpg", text: "The biggest Google related event in the country carefully crafted for you by GDG community! Awesome speakers and lot's of fun!" }
- - {title: "Workshops", image: "workshop.jpg", text: "Full-day of workshops, hands-on experience, hacking and debugging. Come and tame your favourite technology!" }
- - {title: "Hackathon", image: "hackathon.jpg", text: "Full-day free-style hackaton! Want some real teambuilding on friday? Grab your team and join our hackathon!" }
+# - {title: "Conference", image: "conference.jpg", text: "The biggest Google related event in the country carefully crafted for you by GDG community! Awesome speakers and lot's of fun!" }
+# - {title: "Workshops", image: "workshop.jpg", text: "Full-day of workshops, hands-on experience, hacking and debugging. Come and tame your favourite technology!" }
+ - {title: "Hackathon", image: "hackathon.jpg", text: "Full-day free-style hackathon! Want some real teambuilding on Saturday? Grab your team and join our hackathon!" }
 
 # Statistic Block
 statisticBlockImage: "statistic.jpg"
 statisticBlock:
- - {count: "350", specialCharacter: "+", info: "attendees", detail: "from everywhere"}
- - {count: "48", specialCharacter: "+", info: "hours", detail: "of pure Google technologies"}
- - {count: "20", specialCharacter: "+", info: "speakers", detail: "from country and beyond"}
- - {count: "3", specialCharacter: "", info: "parallel tracks", detail: "plus entertainment lounge"}
+ - {count: "50", specialCharacter: "+", info: "attendees", detail: "from Colorado and beyond"}
+ - {count: "9", specialCharacter: "+", info: "hours", detail: "of pure Android hackathon"}
+# - {count: "2", specialCharacter: "+", info: "speakers", detail: "from country and beyond"}
+# - {count: "3", specialCharacter: "", info: "parallel tracks", detail: "plus entertainment lounge"}
 
 # Latest News Block
 latestNewsTitle: "Latest news"
@@ -104,8 +103,8 @@ venueBigImage: "venue_0.jpg"
 venueSmallImage1: "venue_1.jpg"
 venueSmallImage2: "venue_2.jpg"
 venueSmallImage3: "venue_3.jpg"
-venueTitle: "Kinopalace Cinema"
-venueFeatures: ["3 huge cinema screens", "Doulby Digital Surround EX audio system", "Located directly in the city center"]
+venueTitle: "Google Boulder"
+venueFeatures: ["Great hackathon space",  "Located right on Pearl Street"]
 
 # Tweets Feed Block
 tweetsFeedImage: "twitter-feed.jpg"
@@ -125,18 +124,18 @@ subscribeAction: "http://gdg.us5.list-manage1.com/subscribe/post?u=9fc8aa205b052
 subscribeInfo: "Registration will be open around end of August. Number of tickets are limited. Stay tuned!"
 
 # Tickets Block
-ticketsTitle: "Pricetable"
-ticketsInfo: "Tickets grant access to all conference sections, coffee brakes, lunch and party. Accommodation is NOT included in the ticket price."
+ticketsTitle: "Tickets"
+ticketsInfo: "Tickets grant access to the hackathon, coffee breaks, lunch and party."
 ticketsOffers:
  -
-  name: "Early Bird"
-  price: "0"
-  priceCurrency: "USD"
+  name: "Registration is free"
+#  price: "0"
+#  priceCurrency: "USD"
   ticketsNumber: "50"
-  ribbon: "-5%"
+  ribbon: "Free"
   buyButtonLink: "http://gdgdevfestco.eventbrite.com/"
-  buyButtonText: "Buy Now"
-  ticketContentList: ["Lorem ipsum is simply", "Dummy text of the printing", "Typesetting industry"]
+  buyButtonText: "Buy Now at Evenbrite"
+  ticketContentList: ["Registration is free"]
   validFrom: "2014-09-01T10:00"
   validThrough: "2014-10-30T23:59"
 
@@ -167,7 +166,7 @@ blogCommentsEnabled: true
 discusShortName: "devfestua"
 
 # Speakers List Block
-showSessions: true
+showSessions: false
 
 # Team Block
 teamBlockTitle: "About us"
@@ -181,8 +180,8 @@ findWayWalking: "WALKING"
 findWayBicycling: "BICYCLING"
 findWayTransit: "TRANSIT"
 findWayFindFlight: "Find Flight"
-logisticsMapCenterCoordinates: "40.0215128,-105.2610221""
-logisticsMapMobileCenterCoordinates: "40.0215128,-105.2610221""
+logisticsMapCenterCoordinates: "40.0215128,-105.2610221"
+logisticsMapMobileCenterCoordinates: "40.0215128,-105.2610221"
 
 # Logistics Direction Details Block
 directionDetailsImage: "direction-details.jpg"
@@ -194,28 +193,28 @@ directionDetailsCards:
 directionDetailsWideCards: 
  -
   title: "Questions?"
-  subCards:
-   -
-    title: "Hotels"
-    links:
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "InterContinental"}
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "The Hotel Rex"}
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "Westin Market Street"}
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "Hotel Adagio"}
-   - 
-    title: "Registration"
-    links:
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "InterContinental"}
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "The Hotel Rex"}
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "Westin Market Street"}
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "Hotel Adagio"}
-   -
-    title: "Attendance Details"
-    links:
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "InterContinental"}
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "The Hotel Rex"}
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "Westin Market Street"}
-     - {link: "https://plus.google.com/b/102444623953913144164", text: "Hotel Adagio"}
+#  subCards:
+#   -
+#    title: "Hotels"
+#    links:
+#     - {link: "https://plus.google.com/b/102444623953913144164", text: "InterContinental"}
+#     - {link: "https://plus.google.com/b/102444623953913144164", text: "The Hotel Rex"}
+#     - {link: "https://plus.google.com/b/102444623953913144164", text: "Westin Market Street"}
+#     - {link: "https://plus.google.com/b/102444623953913144164", text: "Hotel Adagio"}
+#   - 
+#    title: "Registration"
+#    links:
+#     - {link: "https://plus.google.com/b/102444623953913144164", text: "InterContinental"}
+#     - {link: "https://plus.google.com/b/102444623953913144164", text: "The Hotel Rex"}
+#     - {link: "https://plus.google.com/b/102444623953913144164", text: "Westin Market Street"}
+#     - {link: "https://plus.google.com/b/102444623953913144164", text: "Hotel Adagio"}
+#   -
+#    title: "Attendance Details"
+#    links:
+#     - {link: "https://plus.google.com/b/102444623953913144164", text: "InterContinental"}
+#     - {link: "https://plus.google.com/b/102444623953913144164", text: "The Hotel Rex"}
+#     - {link: "https://plus.google.com/b/102444623953913144164", text: "Westin Market Street"}
+#     - {link: "https://plus.google.com/b/102444623953913144164", text: "Hotel Adagio"}
 
 # Hackathon
 hackathonTitle: "Hackathon"
@@ -235,9 +234,9 @@ judgesTitle: "Judges"
 # Hackathon Prizes Block
 prizesTitle: "Prizes"
 prizes:
- - {title: "1st Place", image: "prize-1.png", info: "Nexus 5 with pre-installed Android L"}
- - {title: "2nd Place", image: "prize-2.png", info: "Amazing Moto 360"}
- - {title: "3nd Place", image: "prize-3.png", info: "Useful Chromecast"}
+ - {title: "1st Place", image: "prize-1.png", info: "TBD"}
+ - {title: "2nd Place", image: "prize-2.png", info: "TBD"}
+ - {title: "3nd Place", image: "prize-3.png", info: "Chromecast"}
 
 # Hackathon Location Block
 hackathonLocationBlockTitle: "Location"
