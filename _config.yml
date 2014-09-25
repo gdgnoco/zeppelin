@@ -133,7 +133,7 @@ ticketsOffers:
 #  priceCurrency: "USD"
   ticketsNumber: "50"
   ribbon: "Free"
-  buyButtonLink: "http://gdgdevfestco.eventbrite.com/"
+  buyButtonLink: "http://devfestco.eventbrite.com"
   buyButtonText: "Buy Now at Evenbrite"
   ticketContentList: ["Registration is free"]
   validFrom: "2014-09-01T10:00"
@@ -241,7 +241,7 @@ prizes:
 # Hackathon Location Block
 hackathonLocationBlockTitle: "Location"
 hackathonLocationName: "Google Boulder"
-hackathonLocationLink: "http://gdgdevfestco.eventbrite.com/"
+hackathonLocationLink: "http://devfestco.eventbrite.com/"
 hackathonStreetAddress: "2590 Pearl St"
 hackathonAddressLocality: "Boulder"
 hackathonAddressLocalityRegion: "Colorado"
